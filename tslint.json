@@ -1,0 +1,16 @@
+{
+    "defaultSeverity": "warning",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "linterOptions": {
+        "exclude": [
+          "node_modules/**"
+        ]
+      },
+    "jsRules": {},
+    "rules": {},
+    "rulesDirectory": [],
+    "no-var-requires": false,
+    "prefer-for-of": true,  /**Recommends a ‘for-of’ loop over a standard ‘for’ loop if the index is only used to access the array being iterated.*/
+}
